@@ -1,0 +1,70 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	overflow: hidden;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+	overflow: hidden;
+	position: relative;
+}
+.form{
+	margin-left: 50px;
+	margin-top: 15px;
+}
+form{
+	/*background-color: white;*/
+	display: flex;
+	flex-flow: column;
+	color: #2caf1f;
+	width: 30rem;
+}
+form label{
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+form span{
+	color: #fff;
+	font-family: cursive;
+	font-weight: bold;
+	margin-left: 10px;
+}
+form a{
+	color: #fff;
+	/*text-decoration: none;*/
+	font-family: cursive;
+}
+form a:hover{
+	color: #2caf1f;
+	transition: 0.10s ease-in-out;	
+}
+.pic{
+	width: 90%;
+	height: 600px;
+	display: flex;
+	justify-content:space-between ;
+}
+img{
+	width: 25rem;
+	height: 25rem;
+	border: 3px solid #2caf1f;
+	margin-top: 10%;
+	margin-left: 100px;
+}
+h1{
+	font-family: arial;
+	font-weight: bold;
+	color: #2caf1f;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
